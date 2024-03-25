@@ -17,4 +17,11 @@ function myFunction() {
     alert("Wings, I could eat them everyday!");
   }
 
-  
+  function myFunction() {
+    const inpObj = document.getElementById("id1");
+    if (!inpObj.checkValidity()) {
+      document.getElementById("valid").innerHTML = "You chose poorly";
+    } else {
+      document.getElementById("valid").innerHTML = "You chose wisely";
+    } 
+  } 
