@@ -13,7 +13,7 @@ function showPosition(position) {
   "<br>Longitude: " + position.coords.longitude;
 }
 
-function food() {
+function favorite() {
     alert("Wings, I could eat them everyday!");
   }
 
